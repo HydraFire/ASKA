@@ -6,7 +6,7 @@ gw.on('closed', function() {
 });
 gw.loadURL('F:/ajr/matrix_start_only/index.html');
 gw.show();
-gw.setPosition(2800,200);// Прячем окно за екран
+gw.setPosition(2800,-200);// Прячем окно за екран
 let gj = 1
 jetpack.write('F:/ajr/matrix_start_only/app_window.json',gj)
 
