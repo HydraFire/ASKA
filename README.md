@@ -1,4 +1,3 @@
-# ASKA
-ASKA - project create by Ai
+# ASKA // Matrix_start_only
+Matrix_start_only - способ запустить матрицу без запуска aspirina
 
-Пока незнаю что написать
