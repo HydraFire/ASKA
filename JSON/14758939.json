@@ -1,0 +1,13 @@
+{
+  "x11y23": "aska_endd();\n\n\n",
+  "x11y25": "const {BrowserWindow} = require('electron').remote\n    var win = new BrowserWindow({width: 340,\n                                 height: 280,\n                                 x:2400,\n                                 y:0,\n                                 movable:true,\n                                 alwaysOnTop:true,\n                                 transparent: true,\n                                 skipTaskbar:true,\n                                 frame: false\n                                });\n  win.on('closed', function() {\n    win = null;\n  });\n  win.loadURL('F:/ajr/aska/statistic/examples/Aska_new_window-time.html');\n  win.show();\n\n\n\n",
+  "x11y28": "var webcamera = parseFloat(localStorage.webcamera);\nvar webcamera_matrix = parseFloat(localStorage.webcamera_matrix);\nif(webcamera == webcamera_matrix){\n aska('хозяин ты где?');\n}else{\n localStorage.webcamera_matrix = webcamera;\n  aska('ура, ты здесь,я тебя вижу');\n}\n\n//this.speed.x=0;this.speed.y=-1;// ВЕРХ\n//this.speed.x=1;this.speed.y=0;// ПРАВО\n//this.speed.x=-1;this.speed.y=0;// ЛЕВО\nthis.speed.x=0;this.speed.y=1;// НИЗ\n",
+  "x11y38": "\n//this.speed.x=0;this.speed.y=-1;// ВЕРХ\nthis.speed.x=1;this.speed.y=0;// ПРАВО\n//this.speed.x=-1;this.speed.y=0;// ЛЕВО\n//this.speed.x=0;this.speed.y=1;// НИЗ\n",
+  "x11y5": "if(this.data == 'start'){\n//this.speed.x=0;this.speed.y=-1;// ВЕРХ\n//this.speed.x=1;this.speed.y=0;// ПРАВО\n//this.speed.x=-1;this.speed.y=0;// ЛЕВО\nthis.speed.x=0;this.speed.y=1;// НИЗ\n}",
+  "x11y6": "aska('стою');\n\n\n",
+  "x30y28": "jetpack.write('F:/ajr/matrix_start_only/app_window.json',0)\n\n\n",
+  "x59y28": "\n//this.speed.x=0;this.speed.y=-1;// ВЕРХ\n//this.speed.x=1;this.speed.y=0;// ПРАВО\nthis.speed.x=-1;this.speed.y=0;// ЛЕВО\n//this.speed.x=0;this.speed.y=1;// НИЗ\n",
+  "x59y38": "\nthis.speed.x=0;this.speed.y=-1;// ВЕРХ\n//this.speed.x=1;this.speed.y=0;// ПРАВО\n//this.speed.x=-1;this.speed.y=0;// ЛЕВО\n//this.speed.x=0;this.speed.y=1;// НИЗ\n",
+  "x59y5": "\nlet i = quants.indexOf(this);\n    quants.splice(i,1);\n",
+  "x60y5": "\nlet i = quants.indexOf(this);\n    quants.splice(i,1);\n"
+}
